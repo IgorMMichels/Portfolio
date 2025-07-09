@@ -15,9 +15,15 @@ Header
 header {
   margin: 20px 0px 20px 0px;
 }
-header nav ul li {
-  margin: 10px;
+
+header nav ul{
   text-align: center;
+}
+
+header nav ul li {
+  text-align: center;
+  display: inline;
+  margin: 5vw 20px 5vw 20px;
 }
 header nav ul li a {
   color: #001524;
