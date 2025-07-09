@@ -1,0 +1,70 @@
+/*====================================================================
+Geral
+======================================================================*/
+html {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #fffcf2;
+  font-size: calc(12px + 0.390625vw);
+  scroll-behavior: smooth;
+}
+
+/*====================================================================
+Header
+======================================================================*/
+
+header {
+  margin: 20px 0px 20px 0px;
+}
+
+header nav ul{
+  text-align: center;
+}
+
+header nav ul li {
+  text-align: center;
+  display: inline;
+  margin: 5vw 20px 5vw 20px;
+}
+header nav ul li a {
+  color: #001524;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #001524;
+    margin: 5vw 2vw 5vw 2vw;
+}
+
+/*====================================================================
+Works
+======================================================================*/
+
+.works h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 2vw 2vw 2vw 2vw;
+}
+
+
+/*====================================================================
+Footer
+======================================================================*/
+
+footer {
+  text-align: center;
+}
+
+footer nav p a {
+  color: #21243d;
+  text-decoration: none;
+  font-size: 32px;
+  margin: 0px 5px 0px 5px;
+}
+
+footer p {
+  margin: 20px 0px 20px 0px;
+}
