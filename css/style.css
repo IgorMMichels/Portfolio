@@ -2,9 +2,9 @@
 Geral
 ======================================================================*/
 html {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  background-color: #fffcf2;
+  font-family: 'Poppins', sans-serif;
+
+  background-color: #FFFFFF;
   font-size: calc(12px + 0.390625vw);
   scroll-behavior: smooth;
 }

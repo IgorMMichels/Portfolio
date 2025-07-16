@@ -2,11 +2,13 @@
 Geral
 ======================================================================*/
 html {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  background-color: #fffcf2;
+  font-family: "Poppins", sans-serif;
+  background-color: #ffffff;
   font-size: calc(12px + 0.390625vw);
   scroll-behavior: smooth;
+}
+
+main {
   margin: 5vw;
 }
 
@@ -15,10 +17,10 @@ Header
 ======================================================================*/
 
 header {
-  margin: 20px 0px 20px 0px;
+  margin: 8vw;
 }
 
-header nav ul{
+header nav ul {
   text-align: center;
 }
 
@@ -35,9 +37,9 @@ header nav ul li a {
 }
 
 header h1 {
-    font-size: 2rem;
-    color: #001524;
-    margin: 5vw 2vw 5vw 2vw;
+  font-size: 2rem;
+  color: #001524;
+  margin: 5vw 2vw 5vw 2vw;
 }
 
 /*====================================================================
@@ -45,23 +47,48 @@ Works
 ======================================================================*/
 
 .works h2 {
-    font-size: 2rem;
-    font-weight: bold;
-    margin: 2vw 2vw 2vw 2vw;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 2.5rem;
+  margin: 2vw;
 }
 
 .works span {
-  background-color: #FF6464;
-  padding: 5px;
+  background-color: #ff6464;
+  padding: 5px 8px 5px 8px;
   border-radius: 15px;
-  margin: 3vw 3vw 3vw 3vw;
+  margin: 3vw;
+  color: #fffcf2;
+  font-weight: bold;
 }
-
 .works p {
   color: #001524;
   font-size: 1.2rem;
+  line-height: 2rem;
 }
 
+.works h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 3rem;
+  margin: 2vw 2vw 2vw 2vw;
+}
+
+.Text {
+  margin: 3vw;
+  color: #001524;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+.works img {
+  text-align: center;
+  display: block;
+  margin: 5vw;
+  width: 90%;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px gray;
+}
 
 /*====================================================================
 Footer
@@ -69,6 +96,12 @@ Footer
 
 footer {
   text-align: center;
+}
+
+header nav ul li {
+  text-align: center;
+  display: inline;
+  margin: 0vw 20px 0vw 20px;
 }
 
 footer nav p a {
@@ -82,3 +115,56 @@ footer p {
   margin: 20px 0px 20px 0px;
 }
 
+/*====================================================================
+Media Care
+======================================================================*/
+
+@media (min-width: 900px) {
+  main {
+    margin: 0 25vw 0 25vw;
+    display: block;
+  }
+
+  header {
+    margin: 1vw;
+  }
+
+  header nav ul li a {
+    color: #001524;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  header h1 {
+    font-size: 2rem;
+    color: #001524;
+    margin: 0;
+    margin-left: 24vw;
+  }
+
+  header nav ul {
+    display: flex;
+    justify-content: right;
+  }
+
+  header nav ul li {
+    margin: 1vw;
+  }
+
+  .works h2 {
+    margin: 3vw 0 3vw 0;
+  }
+
+.Text {
+  margin: 2vw 0vw 2vw 0vw;
+}
+
+.works img {
+  display: block;
+  margin: auto;
+  width: 50vw;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px gray;
+}
+}
