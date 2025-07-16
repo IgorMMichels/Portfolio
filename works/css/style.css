@@ -7,6 +7,7 @@ html {
   background-color: #fffcf2;
   font-size: calc(12px + 0.390625vw);
   scroll-behavior: smooth;
+  margin: 5vw;
 }
 
 /*====================================================================
@@ -49,6 +50,18 @@ Works
     margin: 2vw 2vw 2vw 2vw;
 }
 
+.works span {
+  background-color: #FF6464;
+  padding: 5px;
+  border-radius: 15px;
+  margin: 3vw 3vw 3vw 3vw;
+}
+
+.works p {
+  color: #001524;
+  font-size: 1.2rem;
+}
+
 
 /*====================================================================
 Footer
@@ -68,3 +81,4 @@ footer nav p a {
 footer p {
   margin: 20px 0px 20px 0px;
 }
+
