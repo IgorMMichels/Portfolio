@@ -199,6 +199,10 @@ footer p {
   margin: 20px 0px 20px 0px;
 }
 
+footer {
+  margin-top: 20px;
+}
+
 /* CSS media query dentro de um stylesheet */
 @media (min-width: 900px) {
   header nav ul {
@@ -276,5 +280,9 @@ footer p {
   .works ul img {
     width: 30vw;
     border-radius: 12px;
+  }
+
+  footer {
+    margin-top: 5px;
   }
 }

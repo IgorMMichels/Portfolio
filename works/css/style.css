@@ -42,6 +42,10 @@ header h1 {
   margin: 5vw 2vw 5vw 2vw;
 }
 
+.pagina {
+  color: #ff6464;
+}
+
 /*====================================================================
 Works
 ======================================================================*/
@@ -50,7 +54,7 @@ Works
   font-size: 1.8rem;
   font-weight: bold;
   line-height: 2.5rem;
-  margin: 2vw;
+  margin: 3vw;
 }
 
 .works span {
@@ -71,7 +75,7 @@ Works
   font-size: 1.5rem;
   font-weight: bold;
   line-height: 3rem;
-  margin: 2vw 2vw 2vw 2vw;
+  margin: 3;
 }
 
 .Text {
@@ -115,6 +119,10 @@ footer p {
   margin: 20px 0px 20px 0px;
 }
 
+footer {
+  margin-top: 20vw;
+}
+
 /*====================================================================
 Media Care
 ======================================================================*/
@@ -143,6 +151,8 @@ Media Care
     margin-left: 24vw;
   }
 
+
+
   header nav ul {
     display: flex;
     justify-content: right;
@@ -150,6 +160,11 @@ Media Care
 
   header nav ul li {
     margin: 1vw;
+  }
+
+  .works span {
+    margin: 0vw 1vw 0vw 0vw;
+
   }
 
   .works h2 {
@@ -166,5 +181,9 @@ Media Care
   width: 50vw;
   border-radius: 8px;
   box-shadow: 0 2px 4px gray;
+}
+
+footer {
+  margin-top: 5vw;
 }
 }
